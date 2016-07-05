@@ -1,0 +1,80 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1463744680875
+Build-Jdk: 1.7.0_101
+Build-Timestamp: Fri, 20 May 2016 07:37:30 -0400
+Built-By: slave
+Bundle-ClassPath: .,WEB-INF/lib/jolokia-core-1.3.3.jar,WEB-INF/lib/json-
+ simple-1.1.1.jar,WEB-INF/lib/hawtio-core-1.4.65.jar,WEB-INF/lib/hawtio-
+ util-1.4.65.jar,WEB-INF/lib/slf4j-api-1.7.13.jar,WEB-INF/lib/hawtio-sys
+ tem-1.4.65.jar,WEB-INF/lib/httpclient-4.3.4.jar,WEB-INF/lib/httpcore-4.
+ 3.2.jar,WEB-INF/lib/commons-httpclient-3.1.jar,WEB-INF/lib/commons-io-2
+ .2.jar,WEB-INF/lib/commons-fileupload-1.3.1.jar,WEB-INF/lib/commons-cod
+ ec-1.10.jar,WEB-INF/lib/hawtio-git-1.4.65.jar,WEB-INF/lib/commons-loggi
+ ng-1.0.3.jar
+Bundle-Description: hawtio :: hawtio-web
+Bundle-DocURL: http://www.jboss.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: hawtio :: hawtio-web
+Bundle-SymbolicName: io.hawt.hawtio-web
+Bundle-Vendor: JBoss by Red Hat
+Bundle-Version: 1.4.65
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime;artifactId=!org.osgi.enterpris
+ e|org.osgi.core
+Embed-Directory: WEB-INF/lib
+Embed-Transitive: true
+Embedded-Artifacts: WEB-INF/lib/jolokia-core-1.3.3.jar;g="org.jolokia";a
+ ="jolokia-core";v="1.3.3",WEB-INF/lib/json-simple-1.1.1.jar;g="com.goog
+ lecode.json-simple";a="json-simple";v="1.1.1",WEB-INF/lib/hawtio-core-1
+ .4.65.jar;g="io.hawt";a="hawtio-core";v="1.4.65",WEB-INF/lib/hawtio-uti
+ l-1.4.65.jar;g="io.hawt";a="hawtio-util";v="1.4.65",WEB-INF/lib/slf4j-a
+ pi-1.7.13.jar;g="org.slf4j";a="slf4j-api";v="1.7.13",WEB-INF/lib/hawtio
+ -system-1.4.65.jar;g="io.hawt";a="hawtio-system";v="1.4.65",WEB-INF/lib
+ /httpclient-4.3.4.jar;g="org.apache.httpcomponents";a="httpclient";v="4
+ .3.4",WEB-INF/lib/httpcore-4.3.2.jar;g="org.apache.httpcomponents";a="h
+ ttpcore";v="4.3.2",WEB-INF/lib/commons-httpclient-3.1.jar;g="commons-ht
+ tpclient";a="commons-httpclient";v="3.1",WEB-INF/lib/commons-io-2.2.jar
+ ;g="commons-io";a="commons-io";v="2.2",WEB-INF/lib/commons-fileupload-1
+ .3.1.jar;g="commons-fileupload";a="commons-fileupload";v="1.3.1",WEB-IN
+ F/lib/commons-codec-1.10.jar;g="commons-codec";a="commons-codec";v="1.1
+ 0",WEB-INF/lib/hawtio-git-1.4.65.jar;g="io.hawt";a="hawtio-git";v="1.4.
+ 65",WEB-INF/lib/commons-logging-1.0.3.jar;g="commons-logging";a="common
+ s-logging";v="1.0.3"
+Ignore-Package: org.slf4j.impl,org.apache.log,org.apache.log4j,javax.por
+ tlet
+Implementation-Title: hawtio-web
+Implementation-URL: http://hawt.io/hawtio-web/
+Implementation-Vendor: JBoss by Red Hat
+Implementation-Vendor-Id: io.hawt
+Implementation-Version: 1.4.65
+Import-Package: io.hawt.git;resolution:=optional;version="[1.4,2)",io.ha
+ wt.util;resolution:=optional;version="[1.4,2)",io.hawt.util.introspect;
+ resolution:=optional;version="[1.4,2)",io.hawt.util.introspect.support;
+ resolution:=optional;version="[1.4,2)",javax.crypto,javax.crypto.interf
+ aces,javax.crypto.spec,javax.management,javax.management.openmbean,java
+ x.management.relation,javax.naming,javax.net,javax.net.ssl,javax.securi
+ ty.auth,javax.security.auth.callback,javax.security.auth.login,javax.se
+ curity.auth.spi,javax.security.auth.x500,javax.servlet,javax.servlet.ht
+ tp,javax.xml.bind,javax.xml.datatype,javax.xml.parsers,org.apache.commo
+ ns.logging;resolution:=optional,org.apache.karaf.jaas.boot.principal;re
+ solution:=optional,org.eclipse.jetty.plus.jaas.callback;resolution:=opt
+ ional,org.eclipse.jetty.plus.jaas.spi;resolution:=optional,org.ietf.jgs
+ s,org.osgi.framework;version="[1.5,2)",org.osgi.framework.wiring;versio
+ n="[1.0,2)",org.osgi.util.tracker;version="[1.4,2)",org.slf4j;resolutio
+ n:=optional;version="[1.6,2)",org.w3c.dom,org.xml.sax,org.xml.sax.helpe
+ rs
+Java-Vendor: Oracle Corporation
+Java-Version: 1.7.0_101
+Os-Arch: amd64
+Os-Name: Linux
+Os-Version: 3.10.0-327.18.2.el7.x86_64
+Scm-Connection: scm:git:git@github.com:hawtio/hawtio.git/hawtio-web
+Scm-Revision: fc207b4ba425ce4b232b7abcdcf260e8ce38129e
+Scm-Url: git@github.com:hawtio/hawtio.git/hawtio-web
+Specification-Title: hawtio-web
+Specification-Vendor: JBoss by Red Hat
+Specification-Version: 1.4.65
+Tool: Bnd-1.50.0
+Web-ContextPath: /hawtio
+Webapp-Context: /hawtio
